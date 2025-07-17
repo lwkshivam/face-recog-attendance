@@ -81,16 +81,12 @@ Example: static/faces/Alice/, static/faces/Bob/
 
 Run the script:
 
-bash
-Copy
-Edit
 python register_faces.py
+
 Start the Flask app:
 
-bash
-Copy
-Edit
 python app.py
+
 Open your browser and go to:
 
 http://localhost:5000/ for the live webcam
