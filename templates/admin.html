@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin - Attendance Logs</title>
+</head>
+<body>
+    <h2>Attendance Logs</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Time</th>
+            <th>Status</th>
+        </tr>
+        {% for entry in logs %}
+        <tr>
+            <td>{{ entry[0] }}</td>
+            <td>{{ entry[1] }}</td>
+            <td>{{ entry[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <p><a href="/">Back to Camera</a></p>
+</body>
+</html>
