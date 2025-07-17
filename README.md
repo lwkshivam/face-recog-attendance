@@ -35,9 +35,7 @@ face_attendance_gsheets/
 │ ├── index.html # Webcam interface
 │ └── admin.html # Admin log viewer
 
-yaml
-Copy
-Edit
+
 
 ---
 
