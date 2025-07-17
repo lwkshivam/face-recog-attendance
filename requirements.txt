@@ -1,0 +1,6 @@
+flask
+opencv-python
+mediapipe
+numpy
+gspread
+oauth2client
