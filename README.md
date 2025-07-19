@@ -20,25 +20,6 @@ It detects and recognizes faces through the webcam, marks IN/OUT attendance, and
 
 ---
 
-## Folder Structure
-
-face_attendance_gsheets/
-├── app.py # Main Flask app
-├── register_faces.py # Register and encode new faces
-├── helpers.py # Utility functions for attendance and Sheets
-├── creds.json # Google API credentials (keep private)
-├── attendance.csv # Attendance logs
-├── requirements.txt # Python dependencies
-├── static/
-│ └── faces/ # Face image folders
-├── templates/
-│ ├── index.html # Webcam interface
-│ └── admin.html # Admin log viewer
-
-
-
----
-
 ## How It Works
 
 1. Add images of each person to `static/faces/<person_name>/`
