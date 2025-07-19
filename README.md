@@ -40,9 +40,6 @@ git clone https://github.com/your-username/face_attendance_gsheets.git
 cd face_attendance_gsheets
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Add your Google Sheets API credentials:
 
