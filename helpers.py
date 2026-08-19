@@ -8,8 +8,8 @@ ENCODING_FILE = 'data/encodings.pkl'
 ATTENDANCE_FILE = 'attendance.csv'
 MATCH_THRESHOLD = 0.6
 MIN_GAP_MINUTES = 1
-
-SHEET_URL = 'https://docs.google.com/spreadsheets/d/1J4z50wb_BrPY9V_l3cfRjBkZvpX8C89bQ-iZCaU1NXg/edit?gid=0#gid=0'
+# Add URL Here
+SHEET_URL = '###'
 CREDENTIALS_FILE = 'creds.json'
 
 last_seen = {}
