@@ -5,3 +5,8 @@ built this so i don't have to deal with manual attendance. look at the webcam, i
 2. matches landmarks against registered data
 3. drops name + time straight into google sheets
 4. flask handles the local feed quietly
+
+```bash
+git clone [https://github.com/lwkshivam/face-recog-attendance.git](https://github.com/lwkshivam/face-recog-attendance.git)
+cd face-recog-attendance
+pip install -r requirements.txt
